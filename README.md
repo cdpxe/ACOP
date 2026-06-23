@@ -18,9 +18,9 @@ The carrier-symbol distribution $p_i$ is based on the selected ToS values from t
 
 The final expected number of observed packets follows Equation (3) in the paper. The relevant term is
 
-$L_{bar} \cdot \sum_i(q_i / p_i)$,
+$\bar{L} \cdot \sum_i(q_i / p_i)$,
 
-where $L_{bar} is the average number of 2-bit carrier symbols per original source symbol, $q_i$ is the expected distribution of encoded message symbols, and $p_i$ is the selected carrier-symbol distribution. The result is an expected packet count per original message symbol, not per encoded 2-bit symbol.
+where $\bar{L}$ is the average number of 2-bit carrier symbols per original source symbol, $q_i$ is the expected distribution of encoded message symbols, and $p_i$ is the selected carrier-symbol distribution. The result is an expected packet count per original message symbol, not per encoded 2-bit symbol.
 
 One detail that is easy to miss is that the pairing of $q_i$ and $p_i$ matters. The sum depends on which encoded-symbol frequency is assigned to which carrier-symbol probability. In the article, both $q_i$ and $p_i$ are sorted in descending order, which achieves a suitable pairing.
 The spreadsheet uses the assignment underlying the example in the article, which pairs the encoded-symbol distribution with the selected carrier distribution in the order that yields the reported value. This leads to approximately 9.23 observed packets per original message symbol, between the lower bound of approximately 8.76 and the upper bound of approximately 9.46.
