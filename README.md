@@ -2,7 +2,7 @@
 
 This repository represents an electronic supplement to the following paper:
 
-| Carina Heßeling, Jörg Keller, and Steffen Wendzel: *Optimized DYST-like Amplification Covert Channel*, In Proc. ARES 2026 Workshops / IWAPS Workshop, 2026. |
+| Carina Heßeling, Jörg Keller, and Steffen Wendzel: *Optimized DYST-like Amplification Covert Channel*, In Proc. ARES 2026 EU Workshops (IWAPS Workshop), LNCS 16903, Springer, 2026. |
 |----|
 
 ## Explanatory note on the calculation table
